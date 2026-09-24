@@ -59,7 +59,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="TitleTools">
-      <HintPath>..\..\Libs\TitleTools.dll</HintPath>
+      <HintPath>E:\Visual Studio Проекты\Projects\Libs\TitleTools.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
