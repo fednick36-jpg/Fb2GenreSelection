@@ -10,15 +10,15 @@ namespace Fb2GenreSelection
     public class BookInfo
     {
         // === ПОЛЯ/СВОЙСТВА (С сохраненными именами) ===
-        public string FilePath { get; set; } = string.Empty;
-        public string FileName { get; set; } = string.Empty;
+        public string FilePath { get; set; } = "";
+        public string FileName { get; set; } = "";
         public string Author { get; set; } = "Неизвестен";
-        public string Seria { get; set; } = string.Empty;
+        public string Seria { get; set; } = "";
         public string Title { get; set; } = "Без названия";
 
-        public string GenreKod { get; set; } = string.Empty;
-        public string GenreName { get; set; } = string.Empty;
-        public string Razmer { get; set; } = "0 KB";
+        public string GenreKod { get; set; } = "";
+        public string GenreName { get; set; } = "";
+        public string Razmer { get; set; } = "";
         public string KodePage { get; set; } = "Unknown";
         public string Language { get; set; } = "Не указан";
 

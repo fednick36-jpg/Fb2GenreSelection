@@ -9,10 +9,10 @@ namespace Fb2GenreSelection
     public class Fb2Image
     {
         /// <summary>Id картинки — атрибут id у &lt;binary&gt;. Например "i_001.jpg".</summary>
-        public string Id { get; set; } = string.Empty;
+        public string Id { get; set; } = "";
 
         /// <summary>Content-type — атрибут content-type. Например "image/jpeg".</summary>
-        public string ContentType { get; set; } = string.Empty;
+        public string ContentType { get; set; } = "";
 
         /// <summary>Байты картинки (декодированные из base64).</summary>
         public byte[] Data { get; set; }
@@ -24,7 +24,7 @@ namespace Fb2GenreSelection
         public int Height { get; set; }
 
         /// <summary>Короткий формат: "jpg", "png", "gif" — из content-type.</summary>
-        public string Format { get; set; } = string.Empty;
+        public string Format { get; set; } = "";
 
         /// <summary>Сколько &lt;image&gt; ссылается на этот id (0 = не используется).</summary>
         public int RefCount { get; set; }
@@ -33,7 +33,7 @@ namespace Fb2GenreSelection
         public bool IsCover { get; set; }
 
         /// <summary>SHA1-хэш байтов — для поиска дубликатов (используем позже).</summary>
-        public string Hash { get; set; } = string.Empty;
+        public string Hash { get; set; } = "";
 
         // === Вычисляемые свойства для UI ===
 
@@ -49,17 +49,11 @@ namespace Fb2GenreSelection
             !IsReferenced ? "Не используется" :
             "Используется";
 
-        /// <summary>Размер в удобном виде: "8 B", "53.5 KB", "1.20 MB".</summary>
-        public string SizeDisplay
-        {
-            get
-            {
-                long size = SizeBytes;
-                if (size < 1024) return $"{size}";
-                if (size < 1024 * 1024) return $"{size / 1024.0:F2}";
-                return $"{size / (1024.0 * 1024.0):F2}";
-            }
-        }
+        /// <summary>
+        /// Размер в КБ, без единиц измерения — только число с двумя знаками.
+        /// Пустая строка, если данных нет.
+        /// </summary>
+        public string SizeDisplay => SizeBytes <= 0 ? "" : (SizeBytes / 1024.0).ToString("F2");
 
         /// <summary>Размеры в виде "380×400" или "—", если неизвестны.</summary>
         public string Dimensions =>
