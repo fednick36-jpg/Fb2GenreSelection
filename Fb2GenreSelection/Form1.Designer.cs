@@ -29,10 +29,10 @@ namespace Fb2GenreSelection
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolSSLabelFiles = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -180,6 +180,7 @@ namespace Fb2GenreSelection
             this.RadioBtn1Katalog = new System.Windows.Forms.RadioButton();
             this.menuItemSelectGenre = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -508,12 +509,12 @@ namespace Fb2GenreSelection
             this.DGVAuthors.Location = new System.Drawing.Point(71, 374);
             this.DGVAuthors.Name = "DGVAuthors";
             this.DGVAuthors.RowHeadersVisible = false;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Ivory;
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Yellow;
-            this.DGVAuthors.RowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.Ivory;
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.Yellow;
+            this.DGVAuthors.RowsDefaultCellStyle = dataGridViewCellStyle16;
             this.DGVAuthors.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGVAuthors.Size = new System.Drawing.Size(354, 128);
             this.DGVAuthors.TabIndex = 11;
@@ -1194,7 +1195,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre18.TabIndex = 452;
             this.BtnQGenre18.Text = "ПД";
             this.BtnQGenre18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.toolTip1.SetToolTip(this.BtnQGenre18, "Полицейский детектив");
             this.BtnQGenre18.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre17
@@ -1208,7 +1208,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre17.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre17.TabIndex = 451;
             this.BtnQGenre17.Text = "КД";
-            this.toolTip1.SetToolTip(this.BtnQGenre17, "Классический детектив");
             this.BtnQGenre17.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre16
@@ -1222,7 +1221,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre16.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre16.TabIndex = 450;
             this.BtnQGenre16.Text = "ЛД";
-            this.toolTip1.SetToolTip(this.BtnQGenre16, "Любовные детективы");
             this.BtnQGenre16.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre15
@@ -1236,7 +1234,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre15.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre15.TabIndex = 449;
             this.BtnQGenre15.Text = "ВП";
-            this.toolTip1.SetToolTip(this.BtnQGenre15, "Военные приключения");
             this.BtnQGenre15.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre14
@@ -1250,7 +1247,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre14.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre14.TabIndex = 448;
             this.BtnQGenre14.Text = "Б";
-            this.toolTip1.SetToolTip(this.BtnQGenre14, "Боевик");
             this.BtnQGenre14.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre13
@@ -1264,7 +1260,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre13.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre13.TabIndex = 447;
             this.BtnQGenre13.Text = "Д";
-            this.toolTip1.SetToolTip(this.BtnQGenre13, "Детективы");
             this.BtnQGenre13.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre6
@@ -1279,7 +1274,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre6.TabIndex = 446;
             this.BtnQGenre6.Text = "РПГ";
             this.BtnQGenre6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.toolTip1.SetToolTip(this.BtnQGenre6, "ЛитРПГ");
             this.BtnQGenre6.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre5
@@ -1293,7 +1287,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre5.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre5.TabIndex = 445;
             this.BtnQGenre5.Text = "П";
-            this.toolTip1.SetToolTip(this.BtnQGenre5, "Попаданцы");
             this.BtnQGenre5.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre4
@@ -1307,7 +1300,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre4.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre4.TabIndex = 444;
             this.BtnQGenre4.Text = "БА";
-            this.toolTip1.SetToolTip(this.BtnQGenre4, "Бояръ-аниме");
             this.BtnQGenre4.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre3
@@ -1321,7 +1313,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre3.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre3.TabIndex = 443;
             this.BtnQGenre3.Text = "ЛФ";
-            this.toolTip1.SetToolTip(this.BtnQGenre3, "Любовное фэнтези");
             this.BtnQGenre3.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre2
@@ -1335,7 +1326,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre2.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre2.TabIndex = 442;
             this.BtnQGenre2.Text = "БФ";
-            this.toolTip1.SetToolTip(this.BtnQGenre2, "Боевое фэнтези");
             this.BtnQGenre2.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre1
@@ -1349,7 +1339,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre1.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre1.TabIndex = 441;
             this.BtnQGenre1.Text = "Ф";
-            this.toolTip1.SetToolTip(this.BtnQGenre1, "Фэнтези");
             this.BtnQGenre1.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre12
@@ -1363,7 +1352,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre12.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre12.TabIndex = 440;
             this.BtnQGenre12.Text = "АИ";
-            this.toolTip1.SetToolTip(this.BtnQGenre12, "Альтернативная история");
             this.BtnQGenre12.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre11
@@ -1377,7 +1365,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre11.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre11.TabIndex = 439;
             this.BtnQGenre11.Text = "ДФ";
-            this.toolTip1.SetToolTip(this.BtnQGenre11, "Детективная фантастика");
             this.BtnQGenre11.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre10
@@ -1391,7 +1378,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre10.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre10.TabIndex = 438;
             this.BtnQGenre10.Text = "КФ";
-            this.toolTip1.SetToolTip(this.BtnQGenre10, "Космическая фантастика");
             this.BtnQGenre10.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre9
@@ -1405,7 +1391,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre9.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre9.TabIndex = 437;
             this.BtnQGenre9.Text = "ЛФ";
-            this.toolTip1.SetToolTip(this.BtnQGenre9, "Любовная фантастика");
             this.BtnQGenre9.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre8
@@ -1419,7 +1404,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre8.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre8.TabIndex = 436;
             this.BtnQGenre8.Text = "БФ";
-            this.toolTip1.SetToolTip(this.BtnQGenre8, "Боевая фантастика");
             this.BtnQGenre8.UseVisualStyleBackColor = true;
             // 
             // BtnQGenre7
@@ -1433,7 +1417,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre7.Size = new System.Drawing.Size(48, 30);
             this.BtnQGenre7.TabIndex = 435;
             this.BtnQGenre7.Text = "НФ";
-            this.toolTip1.SetToolTip(this.BtnQGenre7, "Научная фантастика");
             this.BtnQGenre7.UseVisualStyleBackColor = true;
             // 
             // BtnDelete
@@ -1940,6 +1923,7 @@ namespace Fb2GenreSelection
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.BtnQGenre18);
             this.panel3.Controls.Add(this.BtnQGenre17);
             this.panel3.Controls.Add(this.BtnQGenre16);
@@ -1997,26 +1981,26 @@ namespace Fb2GenreSelection
             // 
             // GenreName
             // 
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Ivory;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Arial", 9F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Yellow;
-            this.GenreName.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.Ivory;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Arial", 9F);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.Yellow;
+            this.GenreName.DefaultCellStyle = dataGridViewCellStyle17;
             this.GenreName.HeaderText = "Жанр";
             this.GenreName.Name = "GenreName";
             this.GenreName.Width = 170;
             // 
             // GenreCode
             // 
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.Ivory;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Arial", 9F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Yellow;
-            this.GenreCode.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.Ivory;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Arial", 9F);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Yellow;
+            this.GenreCode.DefaultCellStyle = dataGridViewCellStyle18;
             this.GenreCode.HeaderText = "Код жанра";
             this.GenreCode.Name = "GenreCode";
             this.GenreCode.Width = 124;
@@ -2273,6 +2257,20 @@ namespace Fb2GenreSelection
             this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1.Text = "Назначить жанр...";
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.BtnGreen24;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button1.Image = global::Fb2GenreSelection.Properties.Resources.Minus22;
+            this.button1.Location = new System.Drawing.Point(847, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 30);
+            this.button1.TabIndex = 453;
+            this.toolTip1.SetToolTip(this.button1, "Удалить жанр из книги");
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -2467,5 +2465,6 @@ namespace Fb2GenreSelection
         private System.Windows.Forms.Button BtnQGenre13;
         private System.Windows.Forms.ContextMenuStrip menuItemSelectGenre;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        internal System.Windows.Forms.Button button1;
     }
 }
