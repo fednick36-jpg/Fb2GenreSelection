@@ -29,10 +29,10 @@ namespace Fb2GenreSelection
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolSSLabelFiles = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -508,12 +508,12 @@ namespace Fb2GenreSelection
             this.DGVAuthors.Location = new System.Drawing.Point(71, 374);
             this.DGVAuthors.Name = "DGVAuthors";
             this.DGVAuthors.RowHeadersVisible = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Ivory;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Yellow;
-            this.DGVAuthors.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Ivory;
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Yellow;
+            this.DGVAuthors.RowsDefaultCellStyle = dataGridViewCellStyle7;
             this.DGVAuthors.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGVAuthors.Size = new System.Drawing.Size(354, 128);
             this.DGVAuthors.TabIndex = 11;
@@ -1196,7 +1196,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolTip1.SetToolTip(this.BtnQGenre18, "Полицейский детектив");
             this.BtnQGenre18.UseVisualStyleBackColor = true;
-            this.BtnQGenre18.Click += new System.EventHandler(this.Btn_det_police_Click);
             // 
             // BtnQGenre17
             // 
@@ -1211,7 +1210,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre17.Text = "КД";
             this.toolTip1.SetToolTip(this.BtnQGenre17, "Классический детектив");
             this.BtnQGenre17.UseVisualStyleBackColor = true;
-            this.BtnQGenre17.Click += new System.EventHandler(this.Btn_det_classic_Click);
             // 
             // BtnQGenre16
             // 
@@ -1226,7 +1224,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre16.Text = "ЛД";
             this.toolTip1.SetToolTip(this.BtnQGenre16, "Любовные детективы");
             this.BtnQGenre16.UseVisualStyleBackColor = true;
-            this.BtnQGenre16.Click += new System.EventHandler(this.Btn_love_detective_Click);
             // 
             // BtnQGenre15
             // 
@@ -1241,7 +1238,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre15.Text = "ВП";
             this.toolTip1.SetToolTip(this.BtnQGenre15, "Военные приключения");
             this.BtnQGenre15.UseVisualStyleBackColor = true;
-            this.BtnQGenre15.Click += new System.EventHandler(this.Btn_adv_military_Click);
             // 
             // BtnQGenre14
             // 
@@ -1256,7 +1252,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre14.Text = "Б";
             this.toolTip1.SetToolTip(this.BtnQGenre14, "Боевик");
             this.BtnQGenre14.UseVisualStyleBackColor = true;
-            this.BtnQGenre14.Click += new System.EventHandler(this.Btn_det_action_Click);
             // 
             // BtnQGenre13
             // 
@@ -1271,7 +1266,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre13.Text = "Д";
             this.toolTip1.SetToolTip(this.BtnQGenre13, "Детективы");
             this.BtnQGenre13.UseVisualStyleBackColor = true;
-            this.BtnQGenre13.Click += new System.EventHandler(this.Btn_detective_Click);
             // 
             // BtnQGenre6
             // 
@@ -1287,7 +1281,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolTip1.SetToolTip(this.BtnQGenre6, "ЛитРПГ");
             this.BtnQGenre6.UseVisualStyleBackColor = true;
-            this.BtnQGenre6.Click += new System.EventHandler(this.Btn_sf_litrpg_Click);
             // 
             // BtnQGenre5
             // 
@@ -1302,7 +1295,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre5.Text = "П";
             this.toolTip1.SetToolTip(this.BtnQGenre5, "Попаданцы");
             this.BtnQGenre5.UseVisualStyleBackColor = true;
-            this.BtnQGenre5.Click += new System.EventHandler(this.Btn_popadancy_Click);
             // 
             // BtnQGenre4
             // 
@@ -1317,7 +1309,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre4.Text = "БА";
             this.toolTip1.SetToolTip(this.BtnQGenre4, "Бояръ-аниме");
             this.BtnQGenre4.UseVisualStyleBackColor = true;
-            this.BtnQGenre4.Click += new System.EventHandler(this.Btn_boyar_anime_Click);
             // 
             // BtnQGenre3
             // 
@@ -1332,7 +1323,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre3.Text = "ЛФ";
             this.toolTip1.SetToolTip(this.BtnQGenre3, "Любовное фэнтези");
             this.BtnQGenre3.UseVisualStyleBackColor = true;
-            this.BtnQGenre3.Click += new System.EventHandler(this.Btn_fantasy_love_Click);
             // 
             // BtnQGenre2
             // 
@@ -1347,7 +1337,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre2.Text = "БФ";
             this.toolTip1.SetToolTip(this.BtnQGenre2, "Боевое фэнтези");
             this.BtnQGenre2.UseVisualStyleBackColor = true;
-            this.BtnQGenre2.Click += new System.EventHandler(this.Btn_fantasy_fight_Click);
             // 
             // BtnQGenre1
             // 
@@ -1362,7 +1351,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre1.Text = "Ф";
             this.toolTip1.SetToolTip(this.BtnQGenre1, "Фэнтези");
             this.BtnQGenre1.UseVisualStyleBackColor = true;
-            this.BtnQGenre1.Click += new System.EventHandler(this.Btn_fantasy_Click);
             // 
             // BtnQGenre12
             // 
@@ -1377,7 +1365,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre12.Text = "АИ";
             this.toolTip1.SetToolTip(this.BtnQGenre12, "Альтернативная история");
             this.BtnQGenre12.UseVisualStyleBackColor = true;
-            this.BtnQGenre12.Click += new System.EventHandler(this.Btn_sf_history_Click);
             // 
             // BtnQGenre11
             // 
@@ -1392,7 +1379,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre11.Text = "ДФ";
             this.toolTip1.SetToolTip(this.BtnQGenre11, "Детективная фантастика");
             this.BtnQGenre11.UseVisualStyleBackColor = true;
-            this.BtnQGenre11.Click += new System.EventHandler(this.Btn_sf_detective_Click);
             // 
             // BtnQGenre10
             // 
@@ -1407,7 +1393,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre10.Text = "КФ";
             this.toolTip1.SetToolTip(this.BtnQGenre10, "Космическая фантастика");
             this.BtnQGenre10.UseVisualStyleBackColor = true;
-            this.BtnQGenre10.Click += new System.EventHandler(this.Btn_sf_space_Click);
             // 
             // BtnQGenre9
             // 
@@ -1422,7 +1407,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre9.Text = "ЛФ";
             this.toolTip1.SetToolTip(this.BtnQGenre9, "Любовная фантастика");
             this.BtnQGenre9.UseVisualStyleBackColor = true;
-            this.BtnQGenre9.Click += new System.EventHandler(this.Btn_love_sf_Click);
             // 
             // BtnQGenre8
             // 
@@ -1437,7 +1421,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre8.Text = "БФ";
             this.toolTip1.SetToolTip(this.BtnQGenre8, "Боевая фантастика");
             this.BtnQGenre8.UseVisualStyleBackColor = true;
-            this.BtnQGenre8.Click += new System.EventHandler(this.Btn_sf_action_Click);
             // 
             // BtnQGenre7
             // 
@@ -1452,7 +1435,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre7.Text = "НФ";
             this.toolTip1.SetToolTip(this.BtnQGenre7, "Научная фантастика");
             this.BtnQGenre7.UseVisualStyleBackColor = true;
-            this.BtnQGenre7.Click += new System.EventHandler(this.Btn_sf_Click);
             // 
             // BtnDelete
             // 
@@ -2015,26 +1997,26 @@ namespace Fb2GenreSelection
             // 
             // GenreName
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Ivory;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 9F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Yellow;
-            this.GenreName.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Ivory;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Arial", 9F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Yellow;
+            this.GenreName.DefaultCellStyle = dataGridViewCellStyle8;
             this.GenreName.HeaderText = "Жанр";
             this.GenreName.Name = "GenreName";
             this.GenreName.Width = 170;
             // 
             // GenreCode
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Ivory;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 9F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Yellow;
-            this.GenreCode.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.Ivory;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Arial", 9F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Yellow;
+            this.GenreCode.DefaultCellStyle = dataGridViewCellStyle9;
             this.GenreCode.HeaderText = "Код жанра";
             this.GenreCode.Name = "GenreCode";
             this.GenreCode.Width = 124;
@@ -2283,7 +2265,7 @@ namespace Fb2GenreSelection
             this.menuItemSelectGenre.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1});
             this.menuItemSelectGenre.Name = "menuItemSelectGenre";
-            this.menuItemSelectGenre.Size = new System.Drawing.Size(181, 48);
+            this.menuItemSelectGenre.Size = new System.Drawing.Size(174, 26);
             // 
             // toolStripMenuItem1
             // 
