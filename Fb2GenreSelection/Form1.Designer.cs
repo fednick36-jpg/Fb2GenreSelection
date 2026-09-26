@@ -109,24 +109,24 @@ namespace Fb2GenreSelection
             this.BtnInsAuthor = new System.Windows.Forms.Button();
             this.BtnRegistrEdit = new System.Windows.Forms.Button();
             this.BtnShowBlacklist = new System.Windows.Forms.Button();
-            this.Btn_det_police = new System.Windows.Forms.Button();
-            this.Btn_det_classic = new System.Windows.Forms.Button();
-            this.Btn_love_detective = new System.Windows.Forms.Button();
-            this.Btn_adv_military = new System.Windows.Forms.Button();
-            this.Btn_det_action = new System.Windows.Forms.Button();
-            this.Btn_detective = new System.Windows.Forms.Button();
-            this.Btn_sf_litrpg = new System.Windows.Forms.Button();
-            this.Btn_popadancy = new System.Windows.Forms.Button();
-            this.Btn_boyar_anime = new System.Windows.Forms.Button();
-            this.Btn_fantasy_love = new System.Windows.Forms.Button();
-            this.Btn_fantasy_fight = new System.Windows.Forms.Button();
-            this.Btn_fantasy = new System.Windows.Forms.Button();
-            this.Btn_sf_history = new System.Windows.Forms.Button();
-            this.Btn_sf_detective = new System.Windows.Forms.Button();
-            this.Btn_sf_space = new System.Windows.Forms.Button();
-            this.Btn_love_sf = new System.Windows.Forms.Button();
-            this.Btn_sf_action = new System.Windows.Forms.Button();
-            this.Btn_sf = new System.Windows.Forms.Button();
+            this.BtnQGenre18 = new System.Windows.Forms.Button();
+            this.BtnQGenre17 = new System.Windows.Forms.Button();
+            this.BtnQGenre16 = new System.Windows.Forms.Button();
+            this.BtnQGenre15 = new System.Windows.Forms.Button();
+            this.BtnQGenre14 = new System.Windows.Forms.Button();
+            this.BtnQGenre13 = new System.Windows.Forms.Button();
+            this.BtnQGenre6 = new System.Windows.Forms.Button();
+            this.BtnQGenre5 = new System.Windows.Forms.Button();
+            this.BtnQGenre4 = new System.Windows.Forms.Button();
+            this.BtnQGenre3 = new System.Windows.Forms.Button();
+            this.BtnQGenre2 = new System.Windows.Forms.Button();
+            this.BtnQGenre1 = new System.Windows.Forms.Button();
+            this.BtnQGenre12 = new System.Windows.Forms.Button();
+            this.BtnQGenre11 = new System.Windows.Forms.Button();
+            this.BtnQGenre10 = new System.Windows.Forms.Button();
+            this.BtnQGenre9 = new System.Windows.Forms.Button();
+            this.BtnQGenre8 = new System.Windows.Forms.Button();
+            this.BtnQGenre7 = new System.Windows.Forms.Button();
             this.BtnDelete = new System.Windows.Forms.Button();
             this.BtnEditInNP = new System.Windows.Forms.Button();
             this.BtnEdinInFBE = new System.Windows.Forms.Button();
@@ -178,6 +178,8 @@ namespace Fb2GenreSelection
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.RadioBtnAllDir = new System.Windows.Forms.RadioButton();
             this.RadioBtn1Katalog = new System.Windows.Forms.RadioButton();
+            this.menuItemSelectGenre = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -193,6 +195,7 @@ namespace Fb2GenreSelection
             this.panel4.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.menuItemSelectGenre.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolSSLabelFiles
@@ -1179,277 +1182,277 @@ namespace Fb2GenreSelection
             this.toolTip1.SetToolTip(this.BtnShowBlacklist, "Загружает Черный список авторов");
             this.BtnShowBlacklist.UseVisualStyleBackColor = true;
             // 
-            // Btn_det_police
+            // BtnQGenre18
             // 
-            this.Btn_det_police.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_det_police.BackgroundImage")));
-            this.Btn_det_police.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_det_police.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.Btn_det_police.ForeColor = System.Drawing.Color.Red;
-            this.Btn_det_police.Location = new System.Drawing.Point(581, 136);
-            this.Btn_det_police.Name = "Btn_det_police";
-            this.Btn_det_police.Size = new System.Drawing.Size(48, 30);
-            this.Btn_det_police.TabIndex = 452;
-            this.Btn_det_police.Text = "ПД";
-            this.Btn_det_police.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.toolTip1.SetToolTip(this.Btn_det_police, "Полицейский детектив");
-            this.Btn_det_police.UseVisualStyleBackColor = true;
-            this.Btn_det_police.Click += new System.EventHandler(this.Btn_det_police_Click);
+            this.BtnQGenre18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre18.BackgroundImage")));
+            this.BtnQGenre18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre18.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre18.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre18.Location = new System.Drawing.Point(581, 136);
+            this.BtnQGenre18.Name = "BtnQGenre18";
+            this.BtnQGenre18.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre18.TabIndex = 452;
+            this.BtnQGenre18.Text = "ПД";
+            this.BtnQGenre18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.toolTip1.SetToolTip(this.BtnQGenre18, "Полицейский детектив");
+            this.BtnQGenre18.UseVisualStyleBackColor = true;
+            this.BtnQGenre18.Click += new System.EventHandler(this.Btn_det_police_Click);
             // 
-            // Btn_det_classic
+            // BtnQGenre17
             // 
-            this.Btn_det_classic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_det_classic.BackgroundImage")));
-            this.Btn_det_classic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_det_classic.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_det_classic.ForeColor = System.Drawing.Color.Red;
-            this.Btn_det_classic.Location = new System.Drawing.Point(533, 136);
-            this.Btn_det_classic.Name = "Btn_det_classic";
-            this.Btn_det_classic.Size = new System.Drawing.Size(48, 30);
-            this.Btn_det_classic.TabIndex = 451;
-            this.Btn_det_classic.Text = "КД";
-            this.toolTip1.SetToolTip(this.Btn_det_classic, "Классический детектив");
-            this.Btn_det_classic.UseVisualStyleBackColor = true;
-            this.Btn_det_classic.Click += new System.EventHandler(this.Btn_det_classic_Click);
+            this.BtnQGenre17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre17.BackgroundImage")));
+            this.BtnQGenre17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre17.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre17.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre17.Location = new System.Drawing.Point(533, 136);
+            this.BtnQGenre17.Name = "BtnQGenre17";
+            this.BtnQGenre17.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre17.TabIndex = 451;
+            this.BtnQGenre17.Text = "КД";
+            this.toolTip1.SetToolTip(this.BtnQGenre17, "Классический детектив");
+            this.BtnQGenre17.UseVisualStyleBackColor = true;
+            this.BtnQGenre17.Click += new System.EventHandler(this.Btn_det_classic_Click);
             // 
-            // Btn_love_detective
+            // BtnQGenre16
             // 
-            this.Btn_love_detective.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_love_detective.BackgroundImage")));
-            this.Btn_love_detective.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_love_detective.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_love_detective.ForeColor = System.Drawing.Color.Red;
-            this.Btn_love_detective.Location = new System.Drawing.Point(486, 136);
-            this.Btn_love_detective.Name = "Btn_love_detective";
-            this.Btn_love_detective.Size = new System.Drawing.Size(48, 30);
-            this.Btn_love_detective.TabIndex = 450;
-            this.Btn_love_detective.Text = "ЛД";
-            this.toolTip1.SetToolTip(this.Btn_love_detective, "Любовные детективы");
-            this.Btn_love_detective.UseVisualStyleBackColor = true;
-            this.Btn_love_detective.Click += new System.EventHandler(this.Btn_love_detective_Click);
+            this.BtnQGenre16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre16.BackgroundImage")));
+            this.BtnQGenre16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre16.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre16.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre16.Location = new System.Drawing.Point(486, 136);
+            this.BtnQGenre16.Name = "BtnQGenre16";
+            this.BtnQGenre16.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre16.TabIndex = 450;
+            this.BtnQGenre16.Text = "ЛД";
+            this.toolTip1.SetToolTip(this.BtnQGenre16, "Любовные детективы");
+            this.BtnQGenre16.UseVisualStyleBackColor = true;
+            this.BtnQGenre16.Click += new System.EventHandler(this.Btn_love_detective_Click);
             // 
-            // Btn_adv_military
+            // BtnQGenre15
             // 
-            this.Btn_adv_military.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_adv_military.BackgroundImage")));
-            this.Btn_adv_military.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_adv_military.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_adv_military.ForeColor = System.Drawing.Color.Red;
-            this.Btn_adv_military.Location = new System.Drawing.Point(438, 136);
-            this.Btn_adv_military.Name = "Btn_adv_military";
-            this.Btn_adv_military.Size = new System.Drawing.Size(48, 30);
-            this.Btn_adv_military.TabIndex = 449;
-            this.Btn_adv_military.Text = "ВП";
-            this.toolTip1.SetToolTip(this.Btn_adv_military, "Военные приключения");
-            this.Btn_adv_military.UseVisualStyleBackColor = true;
-            this.Btn_adv_military.Click += new System.EventHandler(this.Btn_adv_military_Click);
+            this.BtnQGenre15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre15.BackgroundImage")));
+            this.BtnQGenre15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre15.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre15.Location = new System.Drawing.Point(438, 136);
+            this.BtnQGenre15.Name = "BtnQGenre15";
+            this.BtnQGenre15.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre15.TabIndex = 449;
+            this.BtnQGenre15.Text = "ВП";
+            this.toolTip1.SetToolTip(this.BtnQGenre15, "Военные приключения");
+            this.BtnQGenre15.UseVisualStyleBackColor = true;
+            this.BtnQGenre15.Click += new System.EventHandler(this.Btn_adv_military_Click);
             // 
-            // Btn_det_action
+            // BtnQGenre14
             // 
-            this.Btn_det_action.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_det_action.BackgroundImage")));
-            this.Btn_det_action.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_det_action.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_det_action.ForeColor = System.Drawing.Color.Red;
-            this.Btn_det_action.Location = new System.Drawing.Point(390, 136);
-            this.Btn_det_action.Name = "Btn_det_action";
-            this.Btn_det_action.Size = new System.Drawing.Size(48, 30);
-            this.Btn_det_action.TabIndex = 448;
-            this.Btn_det_action.Text = "Б";
-            this.toolTip1.SetToolTip(this.Btn_det_action, "Боевик");
-            this.Btn_det_action.UseVisualStyleBackColor = true;
-            this.Btn_det_action.Click += new System.EventHandler(this.Btn_det_action_Click);
+            this.BtnQGenre14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre14.BackgroundImage")));
+            this.BtnQGenre14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre14.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre14.Location = new System.Drawing.Point(390, 136);
+            this.BtnQGenre14.Name = "BtnQGenre14";
+            this.BtnQGenre14.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre14.TabIndex = 448;
+            this.BtnQGenre14.Text = "Б";
+            this.toolTip1.SetToolTip(this.BtnQGenre14, "Боевик");
+            this.BtnQGenre14.UseVisualStyleBackColor = true;
+            this.BtnQGenre14.Click += new System.EventHandler(this.Btn_det_action_Click);
             // 
-            // Btn_detective
+            // BtnQGenre13
             // 
-            this.Btn_detective.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_detective.BackgroundImage")));
-            this.Btn_detective.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_detective.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_detective.ForeColor = System.Drawing.Color.Red;
-            this.Btn_detective.Location = new System.Drawing.Point(342, 136);
-            this.Btn_detective.Name = "Btn_detective";
-            this.Btn_detective.Size = new System.Drawing.Size(48, 30);
-            this.Btn_detective.TabIndex = 447;
-            this.Btn_detective.Text = "Д";
-            this.toolTip1.SetToolTip(this.Btn_detective, "Детективы");
-            this.Btn_detective.UseVisualStyleBackColor = true;
-            this.Btn_detective.Click += new System.EventHandler(this.Btn_detective_Click);
+            this.BtnQGenre13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre13.BackgroundImage")));
+            this.BtnQGenre13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre13.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre13.Location = new System.Drawing.Point(342, 136);
+            this.BtnQGenre13.Name = "BtnQGenre13";
+            this.BtnQGenre13.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre13.TabIndex = 447;
+            this.BtnQGenre13.Text = "Д";
+            this.toolTip1.SetToolTip(this.BtnQGenre13, "Детективы");
+            this.BtnQGenre13.UseVisualStyleBackColor = true;
+            this.BtnQGenre13.Click += new System.EventHandler(this.Btn_detective_Click);
             // 
-            // Btn_sf_litrpg
+            // BtnQGenre6
             // 
-            this.Btn_sf_litrpg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_sf_litrpg.BackgroundImage")));
-            this.Btn_sf_litrpg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_sf_litrpg.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.Btn_sf_litrpg.ForeColor = System.Drawing.Color.Red;
-            this.Btn_sf_litrpg.Location = new System.Drawing.Point(580, 72);
-            this.Btn_sf_litrpg.Name = "Btn_sf_litrpg";
-            this.Btn_sf_litrpg.Size = new System.Drawing.Size(48, 30);
-            this.Btn_sf_litrpg.TabIndex = 446;
-            this.Btn_sf_litrpg.Text = "РПГ";
-            this.Btn_sf_litrpg.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.toolTip1.SetToolTip(this.Btn_sf_litrpg, "ЛитРПГ");
-            this.Btn_sf_litrpg.UseVisualStyleBackColor = true;
-            this.Btn_sf_litrpg.Click += new System.EventHandler(this.Btn_sf_litrpg_Click);
+            this.BtnQGenre6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre6.BackgroundImage")));
+            this.BtnQGenre6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre6.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre6.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre6.Location = new System.Drawing.Point(580, 72);
+            this.BtnQGenre6.Name = "BtnQGenre6";
+            this.BtnQGenre6.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre6.TabIndex = 446;
+            this.BtnQGenre6.Text = "РПГ";
+            this.BtnQGenre6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.toolTip1.SetToolTip(this.BtnQGenre6, "ЛитРПГ");
+            this.BtnQGenre6.UseVisualStyleBackColor = true;
+            this.BtnQGenre6.Click += new System.EventHandler(this.Btn_sf_litrpg_Click);
             // 
-            // Btn_popadancy
+            // BtnQGenre5
             // 
-            this.Btn_popadancy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_popadancy.BackgroundImage")));
-            this.Btn_popadancy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_popadancy.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_popadancy.ForeColor = System.Drawing.Color.Red;
-            this.Btn_popadancy.Location = new System.Drawing.Point(532, 72);
-            this.Btn_popadancy.Name = "Btn_popadancy";
-            this.Btn_popadancy.Size = new System.Drawing.Size(48, 30);
-            this.Btn_popadancy.TabIndex = 445;
-            this.Btn_popadancy.Text = "П";
-            this.toolTip1.SetToolTip(this.Btn_popadancy, "Попаданцы");
-            this.Btn_popadancy.UseVisualStyleBackColor = true;
-            this.Btn_popadancy.Click += new System.EventHandler(this.Btn_popadancy_Click);
+            this.BtnQGenre5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre5.BackgroundImage")));
+            this.BtnQGenre5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre5.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre5.Location = new System.Drawing.Point(532, 72);
+            this.BtnQGenre5.Name = "BtnQGenre5";
+            this.BtnQGenre5.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre5.TabIndex = 445;
+            this.BtnQGenre5.Text = "П";
+            this.toolTip1.SetToolTip(this.BtnQGenre5, "Попаданцы");
+            this.BtnQGenre5.UseVisualStyleBackColor = true;
+            this.BtnQGenre5.Click += new System.EventHandler(this.Btn_popadancy_Click);
             // 
-            // Btn_boyar_anime
+            // BtnQGenre4
             // 
-            this.Btn_boyar_anime.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_boyar_anime.BackgroundImage")));
-            this.Btn_boyar_anime.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_boyar_anime.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_boyar_anime.ForeColor = System.Drawing.Color.Red;
-            this.Btn_boyar_anime.Location = new System.Drawing.Point(485, 72);
-            this.Btn_boyar_anime.Name = "Btn_boyar_anime";
-            this.Btn_boyar_anime.Size = new System.Drawing.Size(48, 30);
-            this.Btn_boyar_anime.TabIndex = 444;
-            this.Btn_boyar_anime.Text = "БА";
-            this.toolTip1.SetToolTip(this.Btn_boyar_anime, "Бояръ-аниме");
-            this.Btn_boyar_anime.UseVisualStyleBackColor = true;
-            this.Btn_boyar_anime.Click += new System.EventHandler(this.Btn_boyar_anime_Click);
+            this.BtnQGenre4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre4.BackgroundImage")));
+            this.BtnQGenre4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre4.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre4.Location = new System.Drawing.Point(485, 72);
+            this.BtnQGenre4.Name = "BtnQGenre4";
+            this.BtnQGenre4.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre4.TabIndex = 444;
+            this.BtnQGenre4.Text = "БА";
+            this.toolTip1.SetToolTip(this.BtnQGenre4, "Бояръ-аниме");
+            this.BtnQGenre4.UseVisualStyleBackColor = true;
+            this.BtnQGenre4.Click += new System.EventHandler(this.Btn_boyar_anime_Click);
             // 
-            // Btn_fantasy_love
+            // BtnQGenre3
             // 
-            this.Btn_fantasy_love.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_fantasy_love.BackgroundImage")));
-            this.Btn_fantasy_love.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_fantasy_love.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_fantasy_love.ForeColor = System.Drawing.Color.Red;
-            this.Btn_fantasy_love.Location = new System.Drawing.Point(437, 72);
-            this.Btn_fantasy_love.Name = "Btn_fantasy_love";
-            this.Btn_fantasy_love.Size = new System.Drawing.Size(48, 30);
-            this.Btn_fantasy_love.TabIndex = 443;
-            this.Btn_fantasy_love.Text = "ЛФ";
-            this.toolTip1.SetToolTip(this.Btn_fantasy_love, "Любовное фэнтези");
-            this.Btn_fantasy_love.UseVisualStyleBackColor = true;
-            this.Btn_fantasy_love.Click += new System.EventHandler(this.Btn_fantasy_love_Click);
+            this.BtnQGenre3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre3.BackgroundImage")));
+            this.BtnQGenre3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre3.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre3.Location = new System.Drawing.Point(437, 72);
+            this.BtnQGenre3.Name = "BtnQGenre3";
+            this.BtnQGenre3.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre3.TabIndex = 443;
+            this.BtnQGenre3.Text = "ЛФ";
+            this.toolTip1.SetToolTip(this.BtnQGenre3, "Любовное фэнтези");
+            this.BtnQGenre3.UseVisualStyleBackColor = true;
+            this.BtnQGenre3.Click += new System.EventHandler(this.Btn_fantasy_love_Click);
             // 
-            // Btn_fantasy_fight
+            // BtnQGenre2
             // 
-            this.Btn_fantasy_fight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_fantasy_fight.BackgroundImage")));
-            this.Btn_fantasy_fight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_fantasy_fight.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_fantasy_fight.ForeColor = System.Drawing.Color.Red;
-            this.Btn_fantasy_fight.Location = new System.Drawing.Point(389, 72);
-            this.Btn_fantasy_fight.Name = "Btn_fantasy_fight";
-            this.Btn_fantasy_fight.Size = new System.Drawing.Size(48, 30);
-            this.Btn_fantasy_fight.TabIndex = 442;
-            this.Btn_fantasy_fight.Text = "БФ";
-            this.toolTip1.SetToolTip(this.Btn_fantasy_fight, "Боевое фэнтези");
-            this.Btn_fantasy_fight.UseVisualStyleBackColor = true;
-            this.Btn_fantasy_fight.Click += new System.EventHandler(this.Btn_fantasy_fight_Click);
+            this.BtnQGenre2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre2.BackgroundImage")));
+            this.BtnQGenre2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre2.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre2.Location = new System.Drawing.Point(389, 72);
+            this.BtnQGenre2.Name = "BtnQGenre2";
+            this.BtnQGenre2.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre2.TabIndex = 442;
+            this.BtnQGenre2.Text = "БФ";
+            this.toolTip1.SetToolTip(this.BtnQGenre2, "Боевое фэнтези");
+            this.BtnQGenre2.UseVisualStyleBackColor = true;
+            this.BtnQGenre2.Click += new System.EventHandler(this.Btn_fantasy_fight_Click);
             // 
-            // Btn_fantasy
+            // BtnQGenre1
             // 
-            this.Btn_fantasy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn_fantasy.BackgroundImage")));
-            this.Btn_fantasy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_fantasy.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_fantasy.ForeColor = System.Drawing.Color.Red;
-            this.Btn_fantasy.Location = new System.Drawing.Point(341, 72);
-            this.Btn_fantasy.Name = "Btn_fantasy";
-            this.Btn_fantasy.Size = new System.Drawing.Size(48, 30);
-            this.Btn_fantasy.TabIndex = 441;
-            this.Btn_fantasy.Text = "Ф";
-            this.toolTip1.SetToolTip(this.Btn_fantasy, "Фэнтези");
-            this.Btn_fantasy.UseVisualStyleBackColor = true;
-            this.Btn_fantasy.Click += new System.EventHandler(this.Btn_fantasy_Click);
+            this.BtnQGenre1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre1.BackgroundImage")));
+            this.BtnQGenre1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre1.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre1.Location = new System.Drawing.Point(341, 72);
+            this.BtnQGenre1.Name = "BtnQGenre1";
+            this.BtnQGenre1.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre1.TabIndex = 441;
+            this.BtnQGenre1.Text = "Ф";
+            this.toolTip1.SetToolTip(this.BtnQGenre1, "Фэнтези");
+            this.BtnQGenre1.UseVisualStyleBackColor = true;
+            this.BtnQGenre1.Click += new System.EventHandler(this.Btn_fantasy_Click);
             // 
-            // Btn_sf_history
+            // BtnQGenre12
             // 
-            this.Btn_sf_history.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.Btn_sf_history.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_sf_history.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.Btn_sf_history.ForeColor = System.Drawing.Color.Red;
-            this.Btn_sf_history.Location = new System.Drawing.Point(580, 104);
-            this.Btn_sf_history.Name = "Btn_sf_history";
-            this.Btn_sf_history.Size = new System.Drawing.Size(48, 30);
-            this.Btn_sf_history.TabIndex = 440;
-            this.Btn_sf_history.Text = "АИ";
-            this.toolTip1.SetToolTip(this.Btn_sf_history, "Альтернативная история");
-            this.Btn_sf_history.UseVisualStyleBackColor = true;
-            this.Btn_sf_history.Click += new System.EventHandler(this.Btn_sf_history_Click);
+            this.BtnQGenre12.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre12.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre12.Location = new System.Drawing.Point(580, 104);
+            this.BtnQGenre12.Name = "BtnQGenre12";
+            this.BtnQGenre12.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre12.TabIndex = 440;
+            this.BtnQGenre12.Text = "АИ";
+            this.toolTip1.SetToolTip(this.BtnQGenre12, "Альтернативная история");
+            this.BtnQGenre12.UseVisualStyleBackColor = true;
+            this.BtnQGenre12.Click += new System.EventHandler(this.Btn_sf_history_Click);
             // 
-            // Btn_sf_detective
+            // BtnQGenre11
             // 
-            this.Btn_sf_detective.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.Btn_sf_detective.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_sf_detective.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_sf_detective.ForeColor = System.Drawing.Color.Red;
-            this.Btn_sf_detective.Location = new System.Drawing.Point(532, 104);
-            this.Btn_sf_detective.Name = "Btn_sf_detective";
-            this.Btn_sf_detective.Size = new System.Drawing.Size(48, 30);
-            this.Btn_sf_detective.TabIndex = 439;
-            this.Btn_sf_detective.Text = "ДФ";
-            this.toolTip1.SetToolTip(this.Btn_sf_detective, "Детективная фантастика");
-            this.Btn_sf_detective.UseVisualStyleBackColor = true;
-            this.Btn_sf_detective.Click += new System.EventHandler(this.Btn_sf_detective_Click);
+            this.BtnQGenre11.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre11.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre11.Location = new System.Drawing.Point(532, 104);
+            this.BtnQGenre11.Name = "BtnQGenre11";
+            this.BtnQGenre11.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre11.TabIndex = 439;
+            this.BtnQGenre11.Text = "ДФ";
+            this.toolTip1.SetToolTip(this.BtnQGenre11, "Детективная фантастика");
+            this.BtnQGenre11.UseVisualStyleBackColor = true;
+            this.BtnQGenre11.Click += new System.EventHandler(this.Btn_sf_detective_Click);
             // 
-            // Btn_sf_space
+            // BtnQGenre10
             // 
-            this.Btn_sf_space.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.Btn_sf_space.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_sf_space.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_sf_space.ForeColor = System.Drawing.Color.Red;
-            this.Btn_sf_space.Location = new System.Drawing.Point(485, 104);
-            this.Btn_sf_space.Name = "Btn_sf_space";
-            this.Btn_sf_space.Size = new System.Drawing.Size(48, 30);
-            this.Btn_sf_space.TabIndex = 438;
-            this.Btn_sf_space.Text = "КФ";
-            this.toolTip1.SetToolTip(this.Btn_sf_space, "Космическая фантастика");
-            this.Btn_sf_space.UseVisualStyleBackColor = true;
-            this.Btn_sf_space.Click += new System.EventHandler(this.Btn_sf_space_Click);
+            this.BtnQGenre10.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre10.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre10.Location = new System.Drawing.Point(485, 104);
+            this.BtnQGenre10.Name = "BtnQGenre10";
+            this.BtnQGenre10.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre10.TabIndex = 438;
+            this.BtnQGenre10.Text = "КФ";
+            this.toolTip1.SetToolTip(this.BtnQGenre10, "Космическая фантастика");
+            this.BtnQGenre10.UseVisualStyleBackColor = true;
+            this.BtnQGenre10.Click += new System.EventHandler(this.Btn_sf_space_Click);
             // 
-            // Btn_love_sf
+            // BtnQGenre9
             // 
-            this.Btn_love_sf.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.Btn_love_sf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_love_sf.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_love_sf.ForeColor = System.Drawing.Color.Red;
-            this.Btn_love_sf.Location = new System.Drawing.Point(437, 104);
-            this.Btn_love_sf.Name = "Btn_love_sf";
-            this.Btn_love_sf.Size = new System.Drawing.Size(48, 30);
-            this.Btn_love_sf.TabIndex = 437;
-            this.Btn_love_sf.Text = "ЛФ";
-            this.toolTip1.SetToolTip(this.Btn_love_sf, "Любовная фантастика");
-            this.Btn_love_sf.UseVisualStyleBackColor = true;
-            this.Btn_love_sf.Click += new System.EventHandler(this.Btn_love_sf_Click);
+            this.BtnQGenre9.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre9.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre9.Location = new System.Drawing.Point(437, 104);
+            this.BtnQGenre9.Name = "BtnQGenre9";
+            this.BtnQGenre9.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre9.TabIndex = 437;
+            this.BtnQGenre9.Text = "ЛФ";
+            this.toolTip1.SetToolTip(this.BtnQGenre9, "Любовная фантастика");
+            this.BtnQGenre9.UseVisualStyleBackColor = true;
+            this.BtnQGenre9.Click += new System.EventHandler(this.Btn_love_sf_Click);
             // 
-            // Btn_sf_action
+            // BtnQGenre8
             // 
-            this.Btn_sf_action.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.Btn_sf_action.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_sf_action.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_sf_action.ForeColor = System.Drawing.Color.Red;
-            this.Btn_sf_action.Location = new System.Drawing.Point(389, 104);
-            this.Btn_sf_action.Name = "Btn_sf_action";
-            this.Btn_sf_action.Size = new System.Drawing.Size(48, 30);
-            this.Btn_sf_action.TabIndex = 436;
-            this.Btn_sf_action.Text = "БФ";
-            this.toolTip1.SetToolTip(this.Btn_sf_action, "Боевая фантастика");
-            this.Btn_sf_action.UseVisualStyleBackColor = true;
-            this.Btn_sf_action.Click += new System.EventHandler(this.Btn_sf_action_Click);
+            this.BtnQGenre8.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre8.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre8.Location = new System.Drawing.Point(389, 104);
+            this.BtnQGenre8.Name = "BtnQGenre8";
+            this.BtnQGenre8.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre8.TabIndex = 436;
+            this.BtnQGenre8.Text = "БФ";
+            this.toolTip1.SetToolTip(this.BtnQGenre8, "Боевая фантастика");
+            this.BtnQGenre8.UseVisualStyleBackColor = true;
+            this.BtnQGenre8.Click += new System.EventHandler(this.Btn_sf_action_Click);
             // 
-            // Btn_sf
+            // BtnQGenre7
             // 
-            this.Btn_sf.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.Btn_sf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_sf.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Btn_sf.ForeColor = System.Drawing.Color.Red;
-            this.Btn_sf.Location = new System.Drawing.Point(341, 104);
-            this.Btn_sf.Name = "Btn_sf";
-            this.Btn_sf.Size = new System.Drawing.Size(48, 30);
-            this.Btn_sf.TabIndex = 435;
-            this.Btn_sf.Text = "НФ";
-            this.toolTip1.SetToolTip(this.Btn_sf, "Научная фантастика");
-            this.Btn_sf.UseVisualStyleBackColor = true;
-            this.Btn_sf.Click += new System.EventHandler(this.Btn_sf_Click);
+            this.BtnQGenre7.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnQGenre7.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre7.Location = new System.Drawing.Point(341, 104);
+            this.BtnQGenre7.Name = "BtnQGenre7";
+            this.BtnQGenre7.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre7.TabIndex = 435;
+            this.BtnQGenre7.Text = "НФ";
+            this.toolTip1.SetToolTip(this.BtnQGenre7, "Научная фантастика");
+            this.BtnQGenre7.UseVisualStyleBackColor = true;
+            this.BtnQGenre7.Click += new System.EventHandler(this.Btn_sf_Click);
             // 
             // BtnDelete
             // 
@@ -1955,24 +1958,24 @@ namespace Fb2GenreSelection
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.Btn_det_police);
-            this.panel3.Controls.Add(this.Btn_det_classic);
-            this.panel3.Controls.Add(this.Btn_love_detective);
-            this.panel3.Controls.Add(this.Btn_adv_military);
-            this.panel3.Controls.Add(this.Btn_det_action);
-            this.panel3.Controls.Add(this.Btn_detective);
-            this.panel3.Controls.Add(this.Btn_sf_litrpg);
-            this.panel3.Controls.Add(this.Btn_popadancy);
-            this.panel3.Controls.Add(this.Btn_boyar_anime);
-            this.panel3.Controls.Add(this.Btn_fantasy_love);
-            this.panel3.Controls.Add(this.Btn_fantasy_fight);
-            this.panel3.Controls.Add(this.Btn_fantasy);
-            this.panel3.Controls.Add(this.Btn_sf_history);
-            this.panel3.Controls.Add(this.Btn_sf_detective);
-            this.panel3.Controls.Add(this.Btn_sf_space);
-            this.panel3.Controls.Add(this.Btn_love_sf);
-            this.panel3.Controls.Add(this.Btn_sf_action);
-            this.panel3.Controls.Add(this.Btn_sf);
+            this.panel3.Controls.Add(this.BtnQGenre18);
+            this.panel3.Controls.Add(this.BtnQGenre17);
+            this.panel3.Controls.Add(this.BtnQGenre16);
+            this.panel3.Controls.Add(this.BtnQGenre15);
+            this.panel3.Controls.Add(this.BtnQGenre14);
+            this.panel3.Controls.Add(this.BtnQGenre13);
+            this.panel3.Controls.Add(this.BtnQGenre6);
+            this.panel3.Controls.Add(this.BtnQGenre5);
+            this.panel3.Controls.Add(this.BtnQGenre4);
+            this.panel3.Controls.Add(this.BtnQGenre3);
+            this.panel3.Controls.Add(this.BtnQGenre2);
+            this.panel3.Controls.Add(this.BtnQGenre1);
+            this.panel3.Controls.Add(this.BtnQGenre12);
+            this.panel3.Controls.Add(this.BtnQGenre11);
+            this.panel3.Controls.Add(this.BtnQGenre10);
+            this.panel3.Controls.Add(this.BtnQGenre9);
+            this.panel3.Controls.Add(this.BtnQGenre8);
+            this.panel3.Controls.Add(this.BtnQGenre7);
             this.panel3.Controls.Add(this.DGVGenres);
             this.panel3.Controls.Add(this.BtnDelete);
             this.panel3.Controls.Add(this.BtnEditInNP);
@@ -2275,6 +2278,19 @@ namespace Fb2GenreSelection
             this.RadioBtn1Katalog.Text = "Файлы из 1 каталога";
             this.RadioBtn1Katalog.UseVisualStyleBackColor = true;
             // 
+            // menuItemSelectGenre
+            // 
+            this.menuItemSelectGenre.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.menuItemSelectGenre.Name = "menuItemSelectGenre";
+            this.menuItemSelectGenre.Size = new System.Drawing.Size(181, 48);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Text = "Назначить жанр...";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -2315,6 +2331,7 @@ namespace Fb2GenreSelection
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.menuItemSelectGenre.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2448,23 +2465,25 @@ namespace Fb2GenreSelection
         private System.Windows.Forms.DataGridViewTextBoxColumn GenreCode;
         internal System.Windows.Forms.TextBox TxtBoxPath;
         internal System.Windows.Forms.ComboBox comboBoxGenres;
-        private System.Windows.Forms.Button Btn_sf;
-        private System.Windows.Forms.Button Btn_sf_history;
-        private System.Windows.Forms.Button Btn_sf_detective;
-        private System.Windows.Forms.Button Btn_sf_space;
-        private System.Windows.Forms.Button Btn_love_sf;
-        private System.Windows.Forms.Button Btn_sf_action;
-        private System.Windows.Forms.Button Btn_sf_litrpg;
-        private System.Windows.Forms.Button Btn_popadancy;
-        private System.Windows.Forms.Button Btn_boyar_anime;
-        private System.Windows.Forms.Button Btn_fantasy_love;
-        private System.Windows.Forms.Button Btn_fantasy_fight;
-        private System.Windows.Forms.Button Btn_fantasy;
-        private System.Windows.Forms.Button Btn_det_police;
-        private System.Windows.Forms.Button Btn_det_classic;
-        private System.Windows.Forms.Button Btn_love_detective;
-        private System.Windows.Forms.Button Btn_adv_military;
-        private System.Windows.Forms.Button Btn_det_action;
-        private System.Windows.Forms.Button Btn_detective;
+        private System.Windows.Forms.Button BtnQGenre7;
+        private System.Windows.Forms.Button BtnQGenre12;
+        private System.Windows.Forms.Button BtnQGenre11;
+        private System.Windows.Forms.Button BtnQGenre10;
+        private System.Windows.Forms.Button BtnQGenre9;
+        private System.Windows.Forms.Button BtnQGenre8;
+        private System.Windows.Forms.Button BtnQGenre6;
+        private System.Windows.Forms.Button BtnQGenre5;
+        private System.Windows.Forms.Button BtnQGenre4;
+        private System.Windows.Forms.Button BtnQGenre3;
+        private System.Windows.Forms.Button BtnQGenre2;
+        private System.Windows.Forms.Button BtnQGenre1;
+        private System.Windows.Forms.Button BtnQGenre18;
+        private System.Windows.Forms.Button BtnQGenre17;
+        private System.Windows.Forms.Button BtnQGenre16;
+        private System.Windows.Forms.Button BtnQGenre15;
+        private System.Windows.Forms.Button BtnQGenre14;
+        private System.Windows.Forms.Button BtnQGenre13;
+        private System.Windows.Forms.ContextMenuStrip menuItemSelectGenre;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }

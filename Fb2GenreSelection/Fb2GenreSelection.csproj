@@ -93,6 +93,7 @@
     <Compile Include="FrmPictBoxFullSize.Designer.cs">
       <DependentUpon>FrmPictBoxFullSize.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuickButtonsManager.cs" />
     <Compile Include="GenreData.cs" />
     <Compile Include="GenreSelectionConfig.cs" />
     <Compile Include="Program.cs" />

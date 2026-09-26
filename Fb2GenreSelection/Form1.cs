@@ -40,6 +40,7 @@ namespace Fb2GenreSelection
         GenreSelectionConfig GSC = new();
         private List<BookInfo> _allLoadedBooks = [];
         private readonly Fb2DocumentCache _docCache = new();
+        private QuickButtonsManager _quickButtonsManager;
 
         //Title ttl = new();
         //Fb2ErrorProcessor ErrorProc = new();
@@ -112,6 +113,26 @@ namespace Fb2GenreSelection
             MapColumnsToPropertiesIfEmpty(DGVGenres, typeof(GenreItem));
 
             NavigateAndLoadDirectory(TxtBoxPath.Text);
+
+            // Перечисляем имена 18 широких кнопок
+            var genreButtons = new Button[]
+            {
+            BtnQGenre1, BtnQGenre2, BtnQGenre3, BtnQGenre4, BtnQGenre5, BtnQGenre6,
+            BtnQGenre7, BtnQGenre8, BtnQGenre9, BtnQGenre10, BtnQGenre11, BtnQGenre12,
+            BtnQGenre13, BtnQGenre14, BtnQGenre15, BtnQGenre16, BtnQGenre17, BtnQGenre18
+            };
+
+            _quickButtonsManager = new QuickButtonsManager(
+                genreButtons,
+                menuItemSelectGenre,
+                (code, name) =>
+                {
+                    textBoxKodGenre.Text = code;
+                    textBoxNameGenre.Text = name;
+                }
+            );
+
+            _quickButtonsManager.Initialize();
 
         }
 
