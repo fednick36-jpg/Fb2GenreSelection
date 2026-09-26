@@ -29,10 +29,10 @@ namespace Fb2GenreSelection
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolSSLabelFiles = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -109,6 +109,24 @@ namespace Fb2GenreSelection
             this.BtnInsAuthor = new System.Windows.Forms.Button();
             this.BtnRegistrEdit = new System.Windows.Forms.Button();
             this.BtnShowBlacklist = new System.Windows.Forms.Button();
+            this.BtnDelete = new System.Windows.Forms.Button();
+            this.BtnEditInNP = new System.Windows.Forms.Button();
+            this.BtnEdinInFBE = new System.Windows.Forms.Button();
+            this.BtnRenameFiles = new System.Windows.Forms.Button();
+            this.BtnLoadCorrectGenres = new System.Windows.Forms.Button();
+            this.BtnRefreshList = new System.Windows.Forms.Button();
+            this.BtnConvertToWin1251 = new System.Windows.Forms.Button();
+            this.BtnChangeGenreSave = new System.Windows.Forms.Button();
+            this.BtnDeleteGenre = new System.Windows.Forms.Button();
+            this.BtnGenreMoveUp = new System.Windows.Forms.Button();
+            this.BtnSaveChangeGenre = new System.Windows.Forms.Button();
+            this.BtnAddGenre = new System.Windows.Forms.Button();
+            this.btnParameters = new System.Windows.Forms.Button();
+            this.BtnSetLangRu = new System.Windows.Forms.Button();
+            this.btnOpenDirBig = new System.Windows.Forms.Button();
+            this.BtnLoadFromXML = new System.Windows.Forms.Button();
+            this.BtnSaveFileXML = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.BtnQGenre18 = new System.Windows.Forms.Button();
             this.BtnQGenre17 = new System.Windows.Forms.Button();
             this.BtnQGenre16 = new System.Windows.Forms.Button();
@@ -127,23 +145,6 @@ namespace Fb2GenreSelection
             this.BtnQGenre9 = new System.Windows.Forms.Button();
             this.BtnQGenre8 = new System.Windows.Forms.Button();
             this.BtnQGenre7 = new System.Windows.Forms.Button();
-            this.BtnDelete = new System.Windows.Forms.Button();
-            this.BtnEditInNP = new System.Windows.Forms.Button();
-            this.BtnEdinInFBE = new System.Windows.Forms.Button();
-            this.BtnRenameFiles = new System.Windows.Forms.Button();
-            this.BtnLoadCorrectGenres = new System.Windows.Forms.Button();
-            this.BtnRefreshList = new System.Windows.Forms.Button();
-            this.BtnConvertToWin1251 = new System.Windows.Forms.Button();
-            this.BtnChangeGenreSave = new System.Windows.Forms.Button();
-            this.BtnDeleteGenre = new System.Windows.Forms.Button();
-            this.BtnGenreMoveUp = new System.Windows.Forms.Button();
-            this.BtnSaveChangeGenre = new System.Windows.Forms.Button();
-            this.BtnAddGenre = new System.Windows.Forms.Button();
-            this.btnParameters = new System.Windows.Forms.Button();
-            this.BtnSetLangRu = new System.Windows.Forms.Button();
-            this.btnOpenDirBig = new System.Windows.Forms.Button();
-            this.BtnLoadFromXML = new System.Windows.Forms.Button();
-            this.BtnSaveFileXML = new System.Windows.Forms.Button();
             this.VibTxtBoxSearch = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.textBoxChemZamenit = new System.Windows.Forms.TextBox();
@@ -180,7 +181,6 @@ namespace Fb2GenreSelection
             this.RadioBtn1Katalog = new System.Windows.Forms.RadioButton();
             this.menuItemSelectGenre = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -509,12 +509,12 @@ namespace Fb2GenreSelection
             this.DGVAuthors.Location = new System.Drawing.Point(71, 374);
             this.DGVAuthors.Name = "DGVAuthors";
             this.DGVAuthors.RowHeadersVisible = false;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.Ivory;
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.Yellow;
-            this.DGVAuthors.RowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Ivory;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Yellow;
+            this.DGVAuthors.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.DGVAuthors.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGVAuthors.Size = new System.Drawing.Size(354, 128);
             this.DGVAuthors.TabIndex = 11;
@@ -1183,242 +1183,6 @@ namespace Fb2GenreSelection
             this.toolTip1.SetToolTip(this.BtnShowBlacklist, "Загружает Черный список авторов");
             this.BtnShowBlacklist.UseVisualStyleBackColor = true;
             // 
-            // BtnQGenre18
-            // 
-            this.BtnQGenre18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre18.BackgroundImage")));
-            this.BtnQGenre18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre18.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.BtnQGenre18.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre18.Location = new System.Drawing.Point(581, 136);
-            this.BtnQGenre18.Name = "BtnQGenre18";
-            this.BtnQGenre18.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre18.TabIndex = 452;
-            this.BtnQGenre18.Text = "ПД";
-            this.BtnQGenre18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnQGenre18.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre17
-            // 
-            this.BtnQGenre17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre17.BackgroundImage")));
-            this.BtnQGenre17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre17.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre17.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre17.Location = new System.Drawing.Point(533, 136);
-            this.BtnQGenre17.Name = "BtnQGenre17";
-            this.BtnQGenre17.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre17.TabIndex = 451;
-            this.BtnQGenre17.Text = "КД";
-            this.BtnQGenre17.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre16
-            // 
-            this.BtnQGenre16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre16.BackgroundImage")));
-            this.BtnQGenre16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre16.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre16.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre16.Location = new System.Drawing.Point(486, 136);
-            this.BtnQGenre16.Name = "BtnQGenre16";
-            this.BtnQGenre16.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre16.TabIndex = 450;
-            this.BtnQGenre16.Text = "ЛД";
-            this.BtnQGenre16.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre15
-            // 
-            this.BtnQGenre15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre15.BackgroundImage")));
-            this.BtnQGenre15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre15.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre15.Location = new System.Drawing.Point(438, 136);
-            this.BtnQGenre15.Name = "BtnQGenre15";
-            this.BtnQGenre15.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre15.TabIndex = 449;
-            this.BtnQGenre15.Text = "ВП";
-            this.BtnQGenre15.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre14
-            // 
-            this.BtnQGenre14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre14.BackgroundImage")));
-            this.BtnQGenre14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre14.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre14.Location = new System.Drawing.Point(390, 136);
-            this.BtnQGenre14.Name = "BtnQGenre14";
-            this.BtnQGenre14.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre14.TabIndex = 448;
-            this.BtnQGenre14.Text = "Б";
-            this.BtnQGenre14.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre13
-            // 
-            this.BtnQGenre13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre13.BackgroundImage")));
-            this.BtnQGenre13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre13.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre13.Location = new System.Drawing.Point(342, 136);
-            this.BtnQGenre13.Name = "BtnQGenre13";
-            this.BtnQGenre13.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre13.TabIndex = 447;
-            this.BtnQGenre13.Text = "Д";
-            this.BtnQGenre13.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre6
-            // 
-            this.BtnQGenre6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre6.BackgroundImage")));
-            this.BtnQGenre6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre6.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.BtnQGenre6.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre6.Location = new System.Drawing.Point(580, 72);
-            this.BtnQGenre6.Name = "BtnQGenre6";
-            this.BtnQGenre6.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre6.TabIndex = 446;
-            this.BtnQGenre6.Text = "РПГ";
-            this.BtnQGenre6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnQGenre6.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre5
-            // 
-            this.BtnQGenre5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre5.BackgroundImage")));
-            this.BtnQGenre5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre5.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre5.Location = new System.Drawing.Point(532, 72);
-            this.BtnQGenre5.Name = "BtnQGenre5";
-            this.BtnQGenre5.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre5.TabIndex = 445;
-            this.BtnQGenre5.Text = "П";
-            this.BtnQGenre5.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre4
-            // 
-            this.BtnQGenre4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre4.BackgroundImage")));
-            this.BtnQGenre4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre4.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre4.Location = new System.Drawing.Point(485, 72);
-            this.BtnQGenre4.Name = "BtnQGenre4";
-            this.BtnQGenre4.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre4.TabIndex = 444;
-            this.BtnQGenre4.Text = "БА";
-            this.BtnQGenre4.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre3
-            // 
-            this.BtnQGenre3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre3.BackgroundImage")));
-            this.BtnQGenre3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre3.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre3.Location = new System.Drawing.Point(437, 72);
-            this.BtnQGenre3.Name = "BtnQGenre3";
-            this.BtnQGenre3.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre3.TabIndex = 443;
-            this.BtnQGenre3.Text = "ЛФ";
-            this.BtnQGenre3.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre2
-            // 
-            this.BtnQGenre2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre2.BackgroundImage")));
-            this.BtnQGenre2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre2.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre2.Location = new System.Drawing.Point(389, 72);
-            this.BtnQGenre2.Name = "BtnQGenre2";
-            this.BtnQGenre2.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre2.TabIndex = 442;
-            this.BtnQGenre2.Text = "БФ";
-            this.BtnQGenre2.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre1
-            // 
-            this.BtnQGenre1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre1.BackgroundImage")));
-            this.BtnQGenre1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre1.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre1.Location = new System.Drawing.Point(341, 72);
-            this.BtnQGenre1.Name = "BtnQGenre1";
-            this.BtnQGenre1.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre1.TabIndex = 441;
-            this.BtnQGenre1.Text = "Ф";
-            this.BtnQGenre1.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre12
-            // 
-            this.BtnQGenre12.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.BtnQGenre12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.BtnQGenre12.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre12.Location = new System.Drawing.Point(580, 104);
-            this.BtnQGenre12.Name = "BtnQGenre12";
-            this.BtnQGenre12.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre12.TabIndex = 440;
-            this.BtnQGenre12.Text = "АИ";
-            this.BtnQGenre12.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre11
-            // 
-            this.BtnQGenre11.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.BtnQGenre11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre11.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre11.Location = new System.Drawing.Point(532, 104);
-            this.BtnQGenre11.Name = "BtnQGenre11";
-            this.BtnQGenre11.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre11.TabIndex = 439;
-            this.BtnQGenre11.Text = "ДФ";
-            this.BtnQGenre11.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre10
-            // 
-            this.BtnQGenre10.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.BtnQGenre10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre10.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre10.Location = new System.Drawing.Point(485, 104);
-            this.BtnQGenre10.Name = "BtnQGenre10";
-            this.BtnQGenre10.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre10.TabIndex = 438;
-            this.BtnQGenre10.Text = "КФ";
-            this.BtnQGenre10.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre9
-            // 
-            this.BtnQGenre9.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.BtnQGenre9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre9.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre9.Location = new System.Drawing.Point(437, 104);
-            this.BtnQGenre9.Name = "BtnQGenre9";
-            this.BtnQGenre9.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre9.TabIndex = 437;
-            this.BtnQGenre9.Text = "ЛФ";
-            this.BtnQGenre9.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre8
-            // 
-            this.BtnQGenre8.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.BtnQGenre8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre8.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre8.Location = new System.Drawing.Point(389, 104);
-            this.BtnQGenre8.Name = "BtnQGenre8";
-            this.BtnQGenre8.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre8.TabIndex = 436;
-            this.BtnQGenre8.Text = "БФ";
-            this.BtnQGenre8.UseVisualStyleBackColor = true;
-            // 
-            // BtnQGenre7
-            // 
-            this.BtnQGenre7.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
-            this.BtnQGenre7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnQGenre7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnQGenre7.ForeColor = System.Drawing.Color.Red;
-            this.BtnQGenre7.Location = new System.Drawing.Point(341, 104);
-            this.BtnQGenre7.Name = "BtnQGenre7";
-            this.BtnQGenre7.Size = new System.Drawing.Size(48, 30);
-            this.BtnQGenre7.TabIndex = 435;
-            this.BtnQGenre7.Text = "НФ";
-            this.BtnQGenre7.UseVisualStyleBackColor = true;
-            // 
             // BtnDelete
             // 
             this.BtnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -1725,6 +1489,256 @@ namespace Fb2GenreSelection
             this.BtnSaveFileXML.UseVisualStyleBackColor = false;
             this.BtnSaveFileXML.Click += new System.EventHandler(this.BtnSaveFileXML_Click);
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.BtnGreen24;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button1.Image = global::Fb2GenreSelection.Properties.Resources.Minus22;
+            this.button1.Location = new System.Drawing.Point(847, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 30);
+            this.button1.TabIndex = 453;
+            this.toolTip1.SetToolTip(this.button1, "Удалить жанр из книги");
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre18
+            // 
+            this.BtnQGenre18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre18.BackgroundImage")));
+            this.BtnQGenre18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre18.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre18.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre18.Location = new System.Drawing.Point(581, 136);
+            this.BtnQGenre18.Name = "BtnQGenre18";
+            this.BtnQGenre18.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre18.TabIndex = 452;
+            this.BtnQGenre18.Text = "ПД";
+            this.BtnQGenre18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnQGenre18.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre17
+            // 
+            this.BtnQGenre17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre17.BackgroundImage")));
+            this.BtnQGenre17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre17.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre17.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre17.Location = new System.Drawing.Point(533, 136);
+            this.BtnQGenre17.Name = "BtnQGenre17";
+            this.BtnQGenre17.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre17.TabIndex = 451;
+            this.BtnQGenre17.Text = "КД";
+            this.BtnQGenre17.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre16
+            // 
+            this.BtnQGenre16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre16.BackgroundImage")));
+            this.BtnQGenre16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre16.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre16.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre16.Location = new System.Drawing.Point(486, 136);
+            this.BtnQGenre16.Name = "BtnQGenre16";
+            this.BtnQGenre16.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre16.TabIndex = 450;
+            this.BtnQGenre16.Text = "ЛД";
+            this.BtnQGenre16.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre15
+            // 
+            this.BtnQGenre15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre15.BackgroundImage")));
+            this.BtnQGenre15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre15.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre15.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre15.Location = new System.Drawing.Point(438, 136);
+            this.BtnQGenre15.Name = "BtnQGenre15";
+            this.BtnQGenre15.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre15.TabIndex = 449;
+            this.BtnQGenre15.Text = "ВП";
+            this.BtnQGenre15.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre14
+            // 
+            this.BtnQGenre14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre14.BackgroundImage")));
+            this.BtnQGenre14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre14.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre14.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre14.Location = new System.Drawing.Point(390, 136);
+            this.BtnQGenre14.Name = "BtnQGenre14";
+            this.BtnQGenre14.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre14.TabIndex = 448;
+            this.BtnQGenre14.Text = "Б";
+            this.BtnQGenre14.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre13
+            // 
+            this.BtnQGenre13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre13.BackgroundImage")));
+            this.BtnQGenre13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre13.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre13.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre13.Location = new System.Drawing.Point(342, 136);
+            this.BtnQGenre13.Name = "BtnQGenre13";
+            this.BtnQGenre13.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre13.TabIndex = 447;
+            this.BtnQGenre13.Text = "Д";
+            this.BtnQGenre13.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre6
+            // 
+            this.BtnQGenre6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre6.BackgroundImage")));
+            this.BtnQGenre6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre6.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre6.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre6.Location = new System.Drawing.Point(580, 72);
+            this.BtnQGenre6.Name = "BtnQGenre6";
+            this.BtnQGenre6.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre6.TabIndex = 446;
+            this.BtnQGenre6.Text = "РПГ";
+            this.BtnQGenre6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnQGenre6.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre5
+            // 
+            this.BtnQGenre5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre5.BackgroundImage")));
+            this.BtnQGenre5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre5.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre5.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre5.Location = new System.Drawing.Point(532, 72);
+            this.BtnQGenre5.Name = "BtnQGenre5";
+            this.BtnQGenre5.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre5.TabIndex = 445;
+            this.BtnQGenre5.Text = "П";
+            this.BtnQGenre5.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre4
+            // 
+            this.BtnQGenre4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre4.BackgroundImage")));
+            this.BtnQGenre4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre4.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre4.Location = new System.Drawing.Point(485, 72);
+            this.BtnQGenre4.Name = "BtnQGenre4";
+            this.BtnQGenre4.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre4.TabIndex = 444;
+            this.BtnQGenre4.Text = "БА";
+            this.BtnQGenre4.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre3
+            // 
+            this.BtnQGenre3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre3.BackgroundImage")));
+            this.BtnQGenre3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre3.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre3.Location = new System.Drawing.Point(437, 72);
+            this.BtnQGenre3.Name = "BtnQGenre3";
+            this.BtnQGenre3.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre3.TabIndex = 443;
+            this.BtnQGenre3.Text = "ЛФ";
+            this.BtnQGenre3.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre2
+            // 
+            this.BtnQGenre2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre2.BackgroundImage")));
+            this.BtnQGenre2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre2.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre2.Location = new System.Drawing.Point(389, 72);
+            this.BtnQGenre2.Name = "BtnQGenre2";
+            this.BtnQGenre2.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre2.TabIndex = 442;
+            this.BtnQGenre2.Text = "БФ";
+            this.BtnQGenre2.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre1
+            // 
+            this.BtnQGenre1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnQGenre1.BackgroundImage")));
+            this.BtnQGenre1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre1.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre1.Location = new System.Drawing.Point(341, 72);
+            this.BtnQGenre1.Name = "BtnQGenre1";
+            this.BtnQGenre1.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre1.TabIndex = 441;
+            this.BtnQGenre1.Text = "Ф";
+            this.BtnQGenre1.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre12
+            // 
+            this.BtnQGenre12.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre12.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre12.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre12.Location = new System.Drawing.Point(580, 104);
+            this.BtnQGenre12.Name = "BtnQGenre12";
+            this.BtnQGenre12.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre12.TabIndex = 440;
+            this.BtnQGenre12.Text = "АИ";
+            this.BtnQGenre12.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre11
+            // 
+            this.BtnQGenre11.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre11.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre11.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre11.Location = new System.Drawing.Point(532, 104);
+            this.BtnQGenre11.Name = "BtnQGenre11";
+            this.BtnQGenre11.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre11.TabIndex = 439;
+            this.BtnQGenre11.Text = "ДФ";
+            this.BtnQGenre11.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre10
+            // 
+            this.BtnQGenre10.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre10.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre10.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre10.Location = new System.Drawing.Point(485, 104);
+            this.BtnQGenre10.Name = "BtnQGenre10";
+            this.BtnQGenre10.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre10.TabIndex = 438;
+            this.BtnQGenre10.Text = "КФ";
+            this.BtnQGenre10.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre9
+            // 
+            this.BtnQGenre9.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre9.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre9.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre9.Location = new System.Drawing.Point(437, 104);
+            this.BtnQGenre9.Name = "BtnQGenre9";
+            this.BtnQGenre9.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre9.TabIndex = 437;
+            this.BtnQGenre9.Text = "ЛФ";
+            this.BtnQGenre9.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre8
+            // 
+            this.BtnQGenre8.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre8.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre8.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre8.Location = new System.Drawing.Point(389, 104);
+            this.BtnQGenre8.Name = "BtnQGenre8";
+            this.BtnQGenre8.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre8.TabIndex = 436;
+            this.BtnQGenre8.Text = "БФ";
+            this.BtnQGenre8.UseVisualStyleBackColor = true;
+            // 
+            // BtnQGenre7
+            // 
+            this.BtnQGenre7.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.btnFonBlue24;
+            this.BtnQGenre7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnQGenre7.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnQGenre7.ForeColor = System.Drawing.Color.Red;
+            this.BtnQGenre7.Location = new System.Drawing.Point(341, 104);
+            this.BtnQGenre7.Name = "BtnQGenre7";
+            this.BtnQGenre7.Size = new System.Drawing.Size(48, 30);
+            this.BtnQGenre7.TabIndex = 435;
+            this.BtnQGenre7.Text = "НФ";
+            this.BtnQGenre7.UseVisualStyleBackColor = true;
+            // 
             // VibTxtBoxSearch
             // 
             this.VibTxtBoxSearch.BackColor = System.Drawing.Color.MintCream;
@@ -1981,26 +1995,26 @@ namespace Fb2GenreSelection
             // 
             // GenreName
             // 
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.Ivory;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Arial", 9F);
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.Yellow;
-            this.GenreName.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Ivory;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 9F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Yellow;
+            this.GenreName.DefaultCellStyle = dataGridViewCellStyle2;
             this.GenreName.HeaderText = "Жанр";
             this.GenreName.Name = "GenreName";
             this.GenreName.Width = 170;
             // 
             // GenreCode
             // 
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.Ivory;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Arial", 9F);
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Yellow;
-            this.GenreCode.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Ivory;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 9F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Yellow;
+            this.GenreCode.DefaultCellStyle = dataGridViewCellStyle3;
             this.GenreCode.HeaderText = "Код жанра";
             this.GenreCode.Name = "GenreCode";
             this.GenreCode.Width = 124;
@@ -2254,22 +2268,8 @@ namespace Fb2GenreSelection
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(173, 22);
             this.toolStripMenuItem1.Text = "Назначить жанр...";
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.BackgroundImage = global::Fb2GenreSelection.Properties.Resources.BtnGreen24;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.Image = global::Fb2GenreSelection.Properties.Resources.Minus22;
-            this.button1.Location = new System.Drawing.Point(847, 6);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 30);
-            this.button1.TabIndex = 453;
-            this.toolTip1.SetToolTip(this.button1, "Удалить жанр из книги");
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
