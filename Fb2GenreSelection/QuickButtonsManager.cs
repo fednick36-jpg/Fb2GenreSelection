@@ -7,7 +7,6 @@ using System.Xml.Linq;
 
 namespace Fb2GenreSelection
 {
-    // Класс конфигурации пользовательских кнопок
     public class GenreButtonConfig
     {
         public string GenreCode { get; set; } = string.Empty;
@@ -22,6 +21,9 @@ namespace Fb2GenreSelection
         private readonly Action<string, string> _onGenreSelected;
         private readonly string _xmlConfigPath = Path.Combine(Application.UserAppDataPath, "user_buttons.xml");
 
+        // Один экземпляр ToolTip на весь класс для предотвращения наслоения подсказок
+        private readonly ToolTip _buttonToolTip = new ToolTip();
+
         private Button _activeCustomButton;
 
         public QuickButtonsManager(
@@ -32,6 +34,7 @@ namespace Fb2GenreSelection
             _quickButtons = quickButtons.ToList();
             _contextMenu = contextMenu;
             _onGenreSelected = onGenreSelected;
+
             _contextMenu.Opening += ContextMenu_Opening;
         }
 
@@ -67,24 +70,21 @@ namespace Fb2GenreSelection
             BuildGenreContextMenu();
         }
 
-        // Построение динамического меню с учетом вашей структуры genreMap и Кортежей
         private void BuildGenreContextMenu()
         {
             _contextMenu.Items.Clear();
 
             var mainMenuItem = new ToolStripMenuItem("Назначить жанр...");
 
-            // Обращаемся напрямую к вашему GenreData.genreMap
             foreach (var groupKvp in GenreData.genreMap)
             {
                 var groupSubMenu = new ToolStripMenuItem(groupKvp.Key);
 
-                // Работаем с кортежем (string Name, string Code)
                 foreach (var genreTuple in groupKvp.Value)
                 {
                     var item = new ToolStripMenuItem(genreTuple.Name)
                     {
-                        Tag = genreTuple // Упаковываем кортеж в Tag
+                        Tag = genreTuple
                     };
                     item.Click += ContextGenreItem_Click;
 
@@ -104,12 +104,13 @@ namespace Fb2GenreSelection
             var menuItem = sender as ToolStripMenuItem;
             if (menuItem == null) return;
 
-            // Явная распаковка ValueTuple из Tag
+            // Распаковка обычного ValueTuple (Name, Code) из 2 элементов
             if (menuItem.Tag is ValueTuple<string, string> tuple)
             {
                 string genreName = tuple.Item1;
                 string genreCode = tuple.Item2;
 
+                // Изначальный метод генерации аббревиатуры
                 string shortText = GenerateShortText(genreName);
 
                 var config = new GenreButtonConfig
@@ -122,13 +123,14 @@ namespace Fb2GenreSelection
                 _activeCustomButton.Tag = config;
                 _activeCustomButton.Text = shortText;
 
-                var toolTip = new ToolTip();
-                toolTip.SetToolTip(_activeCustomButton, genreName);
+                // Единый ToolTip — подсказка обновляется без наслоений
+                _buttonToolTip.SetToolTip(_activeCustomButton, genreName);
 
                 SaveUserButtonPreferences();
             }
         }
 
+        // Изначальный алгоритм генерации короткого текста
         private string GenerateShortText(string fullName)
         {
             if (string.IsNullOrWhiteSpace(fullName)) return "???";
@@ -205,14 +207,14 @@ namespace Fb2GenreSelection
                         btn.Tag = cfg;
                         btn.Text = cfg.ButtonText;
 
-                        var toolTip = new ToolTip();
-                        toolTip.SetToolTip(btn, cfg.GenreName);
+                        // Перезаписываем подсказку при загрузке через общий ToolTip
+                        _buttonToolTip.SetToolTip(btn, cfg.GenreName);
                     }
                 }
             }
             catch
             {
-                // Пропускаем при отсутствии файла
+                // Игнорируем ошибки при отсутствии файла
             }
         }
     }
