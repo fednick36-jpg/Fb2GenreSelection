@@ -21,7 +21,7 @@ namespace Fb2GenreSelection
         private readonly Action<string, string> _onGenreSelected;
         private readonly string _xmlConfigPath = Path.Combine(Application.UserAppDataPath, "user_buttons.xml");
 
-        // Один экземпляр ToolTip на весь класс для предотвращения наслоения подсказок
+        // Единый экземпляр ToolTip против наслоения подсказок
         private readonly ToolTip _buttonToolTip = new ToolTip();
 
         private Button _activeCustomButton;
@@ -84,7 +84,7 @@ namespace Fb2GenreSelection
                 {
                     var item = new ToolStripMenuItem(genreTuple.Name)
                     {
-                        Tag = genreTuple
+                        Tag = genreTuple // Передает (Name, Code, Abrev)
                     };
                     item.Click += ContextGenreItem_Click;
 
@@ -104,49 +104,28 @@ namespace Fb2GenreSelection
             var menuItem = sender as ToolStripMenuItem;
             if (menuItem == null) return;
 
-            // Распаковка обычного ValueTuple (Name, Code) из 2 элементов
-            if (menuItem.Tag is ValueTuple<string, string> tuple)
+            // Извлекаем кортеж из 3 элементов (Name, Code, Abrev)
+            if (menuItem.Tag is ValueTuple<string, string, string> tuple)
             {
                 string genreName = tuple.Item1;
                 string genreCode = tuple.Item2;
-
-                // Изначальный метод генерации аббревиатуры
-                string shortText = GenerateShortText(genreName);
+                string buttonText = tuple.Item3; // Берем готовую аббревиатуру из XML!
 
                 var config = new GenreButtonConfig
                 {
                     GenreCode = genreCode,
                     GenreName = genreName,
-                    ButtonText = shortText
+                    ButtonText = buttonText
                 };
 
                 _activeCustomButton.Tag = config;
-                _activeCustomButton.Text = shortText;
+                _activeCustomButton.Text = buttonText;
 
-                // Единый ToolTip — подсказка обновляется без наслоений
+                // Обновляем подсказку через единый экземпляр ToolTip
                 _buttonToolTip.SetToolTip(_activeCustomButton, genreName);
 
                 SaveUserButtonPreferences();
             }
-        }
-
-        // Изначальный алгоритм генерации короткого текста
-        private string GenerateShortText(string fullName)
-        {
-            if (string.IsNullOrWhiteSpace(fullName)) return "???";
-
-            var words = fullName.Split(new[] { ' ', '-', '/' }, StringSplitOptions.RemoveEmptyEntries);
-            string initials = "";
-
-            foreach (var word in words)
-            {
-                if (word.Length > 0 && char.IsLetter(word[0]))
-                {
-                    initials += char.ToUpper(word[0]);
-                }
-            }
-
-            return initials.Length > 4 ? initials.Substring(0, 4) : initials;
         }
 
         private void SaveUserButtonPreferences()
@@ -207,7 +186,7 @@ namespace Fb2GenreSelection
                         btn.Tag = cfg;
                         btn.Text = cfg.ButtonText;
 
-                        // Перезаписываем подсказку при загрузке через общий ToolTip
+                        // Перезаписываем подсказку при загрузке сохраненных настроек
                         _buttonToolTip.SetToolTip(btn, cfg.GenreName);
                     }
                 }
